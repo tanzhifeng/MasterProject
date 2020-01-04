@@ -1,0 +1,9 @@
+{
+	"package_name":"bingoca",
+
+	"keystore":"bingoca.jks",
+	"alias":"bgf",
+	"alias_password":"123456",
+
+	"ios_signing_identity":"B37F2633ACDD81F7360F70ED37E8B40949B506A0"
+}

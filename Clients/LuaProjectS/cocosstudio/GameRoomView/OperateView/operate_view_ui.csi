@@ -1,0 +1,23 @@
+<PlistInfoProjectFile>
+  <PropertyGroup Name="operate_view_ui" Type="Plist" ID="a5fe9c98-68de-4a01-b6e6-1bf4ddb7e833" Version="3.10.0.0" />
+  <Content ExportType="Png" SortAlgorithm="MaxRects" PicturePadding="2" AllowRotation="False" AllowAnySize="False" AllowTrim="False" ctype="PlistInfoData">
+    <ImageFiles>
+      <FilePathData Path="GameRoomView/OperateView/action_bg_1.png" />
+      <FilePathData Path="GameRoomView/OperateView/action_bg_2.png" />
+      <FilePathData Path="GameRoomView/OperateView/action_bg_3.png" />
+      <FilePathData Path="GameRoomView/OperateView/btn_chow.png" />
+      <FilePathData Path="GameRoomView/OperateView/btn_hu.png" />
+      <FilePathData Path="GameRoomView/OperateView/btn_hu_un.png" />
+      <FilePathData Path="GameRoomView/OperateView/btn_kong.png" />
+      <FilePathData Path="GameRoomView/OperateView/btn_pass.png" />
+      <FilePathData Path="GameRoomView/OperateView/btn_pong.png" />
+      <FilePathData Path="GameRoomView/OperateView/btn_show_zfb.png" />
+      <FilePathData Path="GameRoomView/OperateView/ganglight.png" />
+      <FilePathData Path="GameRoomView/OperateView/ganglight_n.png" />
+      <FilePathData Path="GameRoomView/OperateView/icon_action_slide_finger.png" />
+      <FilePathData Path="GameRoomView/OperateView/light_eat.png" />
+      <FilePathData Path="GameRoomView/OperateView/light_eat_n.png" />
+    </ImageFiles>
+    <MaxSize Width="1024" Height="1024" />
+  </Content>
+</PlistInfoProjectFile>

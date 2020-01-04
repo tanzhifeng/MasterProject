@@ -1,0 +1,6 @@
+{
+	"logicalip": "",
+	"logicalport": 8500,
+	"databaseip": "127.0.0.1",
+	"databaseport": 8600
+}

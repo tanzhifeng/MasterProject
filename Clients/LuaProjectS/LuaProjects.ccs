@@ -1,0 +1,1220 @@
+<Solution>
+  <PropertyGroup Name="LuaProjects" Version="3.10.0.0" Type="CocosStudio" />
+  <SolutionFolder>
+    <Group ctype="ResourceGroup">
+      <RootFolder Name=".">
+        <Folder Name="Admin">
+          <Image Name="base_n.png" />
+          <Image Name="base_s.png" />
+          <Image Name="black_n.png" />
+          <Image Name="black_s.png" />
+          <Image Name="edit_mainl_n.png" />
+          <Image Name="edit_mainl_s.png" />
+          <Image Name="notice_n.png" />
+          <Image Name="notice_s.png" />
+          <Image Name="power_n.png" />
+          <Image Name="power_s.png" />
+          <Image Name="present_n.png" />
+          <Image Name="present_s.png" />
+        </Folder>
+        <Folder Name="Animation">
+          <PlistImageFolder Image="getVoice.png" PListFile="getVoice.plist" Name=".getVoice_PList.Dir">
+            <PlistImageFile Name="getVoice01.png" Key="getVoice01.png" />
+            <PlistImageFile Name="getVoice02.png" Key="getVoice02.png" />
+            <PlistImageFile Name="getVoice03.png" Key="getVoice03.png" />
+            <PlistImageFile Name="getVoice04.png" Key="getVoice04.png" />
+            <PlistImageFile Name="getVoice05.png" Key="getVoice05.png" />
+            <PlistImageFile Name="getVoice06.png" Key="getVoice06.png" />
+            <PlistImageFile Name="getVoice07.png" Key="getVoice07.png" />
+            <PlistImageFile Name="getVoice08.png" Key="getVoice08.png" />
+            <PlistImageFile Name="getVoice09.png" Key="getVoice09.png" />
+            <PlistImageFile Name="getVoice10.png" Key="getVoice10.png" />
+            <PlistImageFile Name="getVoice11.png" Key="getVoice11.png" />
+            <PlistImageFile Name="getVoice12.png" Key="getVoice12.png" />
+            <PlistImageFile Name="getVoice13.png" Key="getVoice13.png" />
+            <PlistImageFile Name="getVoice14.png" Key="getVoice14.png" />
+            <PlistImageFile Name="getVoice15.png" Key="getVoice15.png" />
+            <PlistImageFile Name="getVoice16.png" Key="getVoice16.png" />
+            <PlistImageFile Name="getVoice17.png" Key="getVoice17.png" />
+            <PlistImageFile Name="getVoice18.png" Key="getVoice18.png" />
+            <PlistImageFile Name="getVoice19.png" Key="getVoice19.png" />
+            <PlistImageFile Name="getVoice20.png" Key="getVoice20.png" />
+            <PlistImageFile Name="getVoice21.png" Key="getVoice21.png" />
+            <PlistImageFile Name="getVoice22.png" Key="getVoice22.png" />
+            <PlistImageFile Name="getVoice23.png" Key="getVoice23.png" />
+            <PlistImageFile Name="getVoice24.png" Key="getVoice24.png" />
+            <PlistImageFile Name="getVoice25.png" Key="getVoice25.png" />
+            <PlistImageFile Name="getVoice26.png" Key="getVoice26.png" />
+            <PlistImageFile Name="getVoice27.png" Key="getVoice27.png" />
+            <PlistImageFile Name="getVoice28.png" Key="getVoice28.png" />
+            <PlistImageFile Name="getVoice29.png" Key="getVoice29.png" />
+            <PlistImageFile Name="getVoice30.png" Key="getVoice30.png" />
+            <PlistImageFile Name="getVoice31.png" Key="getVoice31.png" />
+            <PlistImageFile Name="getVoice32.png" Key="getVoice32.png" />
+            <PlistImageFile Name="getVoice33.png" Key="getVoice33.png" />
+            <PlistImageFile Name="getVoice34.png" Key="getVoice34.png" />
+            <PlistImageFile Name="getVoice35.png" Key="getVoice35.png" />
+          </PlistImageFolder>
+          <PlistImageFolder Image="playVoice.png" PListFile="playVoice.plist" Name=".playVoice_PList.Dir">
+            <PlistImageFile Name="playVoice01.png" Key="playVoice01.png" />
+            <PlistImageFile Name="playVoice02.png" Key="playVoice02.png" />
+            <PlistImageFile Name="playVoice03.png" Key="playVoice03.png" />
+            <PlistImageFile Name="playVoice04.png" Key="playVoice04.png" />
+          </PlistImageFolder>
+        </Folder>
+        <Folder Name="Armature">
+          <Folder Name="hero_1001">
+            <ExportJsonFile Name="hero_1001.ExportJson" />
+          </Folder>
+          <Folder Name="hero_1004">
+            <ExportJsonFile Name="hero_1004.ExportJson" />
+          </Folder>
+          <ExportJsonFile Name="effect_text_pengchiganghu.ExportJson" />
+          <ExportJsonFile Name="effect_text_zimo01.ExportJson" />
+          <ExportJsonFile Name="effect_ui_duijukaishi01.ExportJson" />
+        </Folder>
+        <Folder Name="BattleGame">
+          <Folder Name="BattleControl">
+            <Image Name="ui_battle_attack.png" />
+            <Image Name="ui_battle_attack2.png" />
+            <Image Name="ui_battle_bianshen.png" />
+            <Image Name="ui_battle_bianshen2.png" />
+            <Image Name="ui_battle_blunt.png" />
+            <Image Name="ui_battle_blunt2.png" />
+            <Image Name="ui_battle_jinenger.png" />
+            <Image Name="ui_battle_jinenger2.png" />
+            <Image Name="ui_battle_jinengyi.png" />
+            <Image Name="ui_battle_jinengyi2.png" />
+            <Image Name="ui_battle_jump.png" />
+            <Image Name="ui_battle_jump2.png" />
+            <Image Name="ui_battle_rocker_down.png" />
+            <Image Name="ui_battle_rocker_down01.png" />
+            <Image Name="ui_battle_rocker_down02.png" />
+            <Image Name="ui_battle_rocker_down2.png" />
+            <Image Name="ui_battle_rocker_left.png" />
+            <Image Name="ui_battle_rocker_left2.png" />
+            <Image Name="ui_battle_rocker_right.png" />
+            <Image Name="ui_battle_rocker_right2.png" />
+            <Image Name="ui_battle_rocker_up.png" />
+            <Image Name="ui_battle_rocker_up01.png" />
+            <Image Name="ui_battle_rocker_up2.png" />
+          </Folder>
+        </Folder>
+        <Folder Name="ClubView">
+          <Image Name="activity_count_n.png" />
+          <Image Name="activity_count_s.png" />
+          <Image Name="add_to_balck_but.png" />
+          <Image Name="add_to_partner_but.png" />
+          <Image Name="add_to_white_but.png" />
+          <Image Name="black_but_n.png" />
+          <Image Name="black_but_s.png" />
+          <Image Name="bottm_bg.png" />
+          <Image Name="card_count_but_n.png" />
+          <Image Name="card_count_but_s.png" />
+          <Image Name="chang_option_but.png" />
+          <Image Name="club_bg.png" />
+          <Image Name="club_list_bg_n.png" />
+          <Image Name="club_list_bg_s.png" />
+          <Image Name="club_locked.png" />
+          <Image Name="club_menber_name_bg.png" />
+          <Image Name="club_opened.png" />
+          <Image Name="club_record_handbg.png" />
+          <Image Name="club_record_handline.png" />
+          <Image Name="content_bg.png" />
+          <Image Name="data_but.png" />
+          <Image Name="date_bg.png" />
+          <Image Name="day_rank_but_n.png" />
+          <Image Name="day_rank_but_s.png" />
+          <Image Name="delete_club_but.png" />
+          <Image Name="dis_count_but.png" />
+          <Image Name="dis_count_but_s.png" />
+          <Image Name="disband_short_but.png" />
+          <Image Name="down_select.png" />
+          <Image Name="down_unselect.png" />
+          <Image Name="encrypt_but.png" />
+          <Image Name="encrypt_icon.png" />
+          <Image Name="enter_short_but.png" />
+          <Image Name="exit_club.png" />
+          <Image Name="headMark.png" />
+          <Image Name="imput_bg.png" />
+          <Image Name="invite_short_but.png" />
+          <Image Name="line.png" />
+          <Image Name="list_bg.png" />
+          <Image Name="member_but.png" />
+          <Image Name="menber_share_but.png" />
+          <Image Name="month_rank_but_n.png" />
+          <Image Name="month_rank_but_s.png" />
+          <Image Name="month_statistics_but_n.png" />
+          <Image Name="month_statistics_but_s.png" />
+          <Image Name="new_count_but_n.png" />
+          <Image Name="new_count_but_s.png" />
+          <Image Name="option_but.png" />
+          <Image Name="partner_but_n.png" />
+          <Image Name="partner_but_s.png" />
+          <Image Name="rank_but.png" />
+          <Image Name="readyMark.png" />
+          <Image Name="reflash_but.png" />
+          <Image Name="remove_from_black_but.png" />
+          <Image Name="remove_from_visitor_but.png" />
+          <Image Name="remove_from_white_but.png" />
+          <Image Name="reomve_from_partner_but.png" />
+          <Image Name="room_count_but_n.png" />
+          <Image Name="room_count_but_s.png" />
+          <Image Name="roomRecordInfo.png" />
+          <Image Name="roomRecordItmeBg.png" />
+          <Image Name="roomRecordTips.png" />
+          <Image Name="round_count_but_n.png" />
+          <Image Name="round_count_but_s.png" />
+          <Image Name="section_but_n.png" />
+          <Image Name="section_but_s.png" />
+          <Image Name="send_notice_but.png" />
+          <Image Name="share_but.png" />
+          <Image Name="Solidline.png" />
+          <Image Name="table_bg.png" />
+          <Image Name="table_info.png" />
+          <Image Name="un_partner_but.png" />
+          <Image Name="up_select.png" />
+          <Image Name="up_unselect.png" />
+          <Image Name="visitor_but_n.png" />
+          <Image Name="visitor_but_s.png" />
+          <Image Name="white_but_n.png" />
+          <Image Name="white_but_s.png" />
+        </Folder>
+        <Folder Name="common">
+          <Image Name="alpha_4x4.png" />
+          <Image Name="bg_half_gradient_black.png" />
+          <Image Name="bg_loading.png" />
+          <Image Name="check_box2_nomal.png" />
+          <Image Name="check_box2_select.png" />
+          <Image Name="common_bg.png" />
+          <Image Name="common_cancle_but.png" />
+          <Image Name="common_checkbox_normal.png" />
+          <Image Name="common_checkbox_select.png" />
+          <Image Name="common_checkbox_unormal.png" />
+          <Image Name="common_checkbox_uselect.png" />
+          <Image Name="common_confirm_but.png" />
+          <Image Name="common_content_bg.png" />
+          <Image Name="common_pop_close_but.png" />
+          <Image Name="common_pop_conent_bg.png" />
+          <Image Name="common_pop_line_effect.png" />
+          <Image Name="face3.png" />
+          <Image Name="face6.png" />
+          <Image Name="hall_top_bg.png" />
+          <Image Name="icon_banker.png" />
+          <Image Name="icon_boy.png" />
+          <Image Name="icon_girl.png" />
+          <Image Name="img_tishi.png" />
+          <Image Name="logo_image.png" />
+          <Image Name="Poker.png" />
+          <Image Name="rank_list_bg.png" />
+          <Image Name="rank_list_item_bg.png" />
+          <Image Name="share_icon.png" />
+          <Image Name="task_conten_bg.png" />
+          <Image Name="task_icon_bg.png" />
+          <Image Name="task_tips_bg.png" />
+          <Image Name="titile_decorate.png" />
+        </Folder>
+        <Folder Name="CreateRoomView">
+          <Image Name="card_panel.png" />
+          <Image Name="change_rule.png" />
+          <Image Name="conten_bg.png" />
+          <Image Name="create_room_but.png" />
+          <Image Name="doudizhu_n.png" />
+          <Image Name="doudizhu_s.png" />
+          <Image Name="ping_1.png" />
+          <Image Name="ping_2.png" />
+          <Image Name="ping_3.png" />
+          <Image Name="ping_4.png" />
+          <Image Name="ping_5.png" />
+          <Image Name="ping_6.png" />
+          <Image Name="selete_bg.png" />
+          <Image Name="tuidao1.png" />
+          <Image Name="tuidao2.png" />
+          <Image Name="tuidao3.png" />
+          <Image Name="tuidao4.png" />
+          <Image Name="tuidao5.png" />
+          <Image Name="type_one_n.png" />
+          <Image Name="type_one_s.png" />
+          <Image Name="type_two_n.png" />
+          <Image Name="type_two_s.png" />
+        </Folder>
+        <Folder Name="csb">
+          <Folder Name="ClubManageView">
+            <Project Name="BrokenLineGraphView.csd" Type="Node" />
+            <Project Name="ClubBlackItem.csd" Type="Node" />
+            <Project Name="ClubDataView.csd" Type="Node" />
+            <Project Name="ClubDayItem.csd" Type="Node" />
+            <Project Name="ClubListItem.csd" Type="Node" />
+            <Project Name="ClubManageView.csd" Type="Node" />
+            <Project Name="ClubMemberView.csd" Type="Node" />
+            <Project Name="ClubMonthItem.csd" Type="Node" />
+            <Project Name="ClubOneTableObj.csd" Type="Node" />
+            <Project Name="ClubOpreateView.csd" Type="Node" />
+            <Project Name="ClubPartnerItem.csd" Type="Node" />
+            <Project Name="ClubRecordUserInfo.csd" Type="Node" />
+            <Project Name="ClubRecordView.csd" Type="Node" />
+            <Project Name="ClubSectionItem.csd" Type="Node" />
+            <Project Name="ClubStatisticsItem.csd" Type="Node" />
+            <Project Name="ClubTableItem.csd" Type="Node" />
+            <Project Name="ClubTableMemberObj.csd" Type="Node" />
+            <Project Name="ClubVisitorItem.csd" Type="Node" />
+            <Project Name="ClubWhiteItem.csd" Type="Node" />
+          </Folder>
+          <Folder Name="Common">
+            <Project Name="CommonAntionTips.csd" Type="Node" />
+            <Project Name="CommonConfirmPanel.csd" Type="Node" />
+            <Project Name="CommonLoadPanel.csd" Type="Node" />
+            <Project Name="OnceNoticeView.csd" Type="Node" />
+          </Folder>
+          <Folder Name="GameRoomView">
+            <Project Name="CenterScheduler.csd" Type="Node" />
+            <Project Name="ChatExpressionItem.csd" Type="Node" />
+            <Project Name="ChatMessageItem.csd" Type="Node" />
+            <Project Name="ChatView.csd" Type="Node" />
+            <Project Name="DisbandItem.csd" Type="Node" />
+            <Project Name="DisbandView.csd" Type="Node" />
+            <Project Name="GameRoomGpsPlayer.csd" Type="Node" />
+            <Project Name="GameRoomGPSView.csd" Type="Node" />
+            <Project Name="GameRoomPlayer.csd" Type="Node" />
+            <Project Name="GameRoomView.csd" Type="Node" />
+            <Project Name="GameSettingView.csd" Type="Node" />
+            <Project Name="OperateView.csd" Type="Node" />
+            <Project Name="RemainsCardView.csd" Type="Node" />
+            <Project Name="ReplayGameRoomView.csd" Type="Node" />
+            <Project Name="RoomResultItem.csd" Type="Node" />
+            <Project Name="RoomResultView.csd" Type="Node" />
+            <Project Name="RoundResultItem.csd" Type="Node" />
+            <Project Name="RoundResultView.csd" Type="Node" />
+            <Project Name="ShowBirdPanel.csd" Type="Node" />
+          </Folder>
+          <Folder Name="HallView">
+            <Project Name="AdministratorsManageView.csd" Type="Node" />
+            <Project Name="BlackListItem.csd" Type="Node" />
+            <Project Name="BlackListView.csd" Type="Node" />
+            <Project Name="ChangeExpectationCode.csd" Type="Node" />
+            <Project Name="CreateRoomView.csd" Type="Node" />
+            <Project Name="CustomerServiceItem.csd" Type="Node" />
+            <Project Name="CustomerServiceView.csd" Type="Node" />
+            <Project Name="EmailInfoObj.csd" Type="Node" />
+            <Project Name="EmailInfoView.csd" Type="Node" />
+            <Project Name="EmailItem.csd" Type="Node" />
+            <Project Name="EmailView.csd" Type="Node" />
+            <Project Name="GameRuleView.csd" Type="Node" />
+            <Project Name="HallViewPanel.csd" Type="Node" />
+            <Project Name="JoinRoomView.csd" Type="Node" />
+            <Project Name="MessageView.csd" Type="Node" />
+            <Project Name="MyRoomListItem.csd" Type="Node" />
+            <Project Name="MyRoomListView.csd" Type="Node" />
+            <Project Name="PersonalView.csd" Type="Node" />
+            <Project Name="PresentView.csd" Type="Node" />
+            <Project Name="RankItem.csd" Type="Node" />
+            <Project Name="RecordListItem.csd" Type="Node" />
+            <Project Name="RecordListView.csd" Type="Node" />
+            <Project Name="RecordReplayItem.csd" Type="Node" />
+            <Project Name="SettingView.csd" Type="Node" />
+            <Project Name="SpecialCreateClub.csd" Type="Node" />
+            <Project Name="TaskItem.csd" Type="Node" />
+            <Project Name="TaskListView.csd" Type="Node" />
+            <Project Name="WechatShareView.csd" Type="Node" />
+          </Folder>
+          <Folder Name="LoginViewPanel">
+            <Project Name="LoadingView.csd" Type="Node" />
+            <Project Name="LoginViewPanel.csd" Type="Node" />
+            <Project Name="UserAgreementView.csd" Type="Node" />
+          </Folder>
+          <Folder Name="MarkShopView">
+            <Project Name="ShopMarkItem.csd" Type="Node" />
+            <Project Name="ShopMarkView.csd" Type="Node" />
+          </Folder>
+          <Folder Name="PokerRoomView">
+            <Project Name="PokerLockTimer.csd" Type="Node" />
+            <Project Name="PokerOpreateView.csd" Type="Node" />
+            <Project Name="PokerRoomPlayerInfo.csd" Type="Node" />
+            <Project Name="PokerRoomView.csd" Type="Node" />
+            <Project Name="RoomDoubleInfoPanel.csd" Type="Node" />
+          </Folder>
+          <Folder Name="SignView">
+            <Project Name="SignDayItem.csd" Type="Node" />
+            <Project Name="SignViewPanel.csd" Type="Node" />
+            <Project Name="SignWelfareItem.csd" Type="Node" />
+            <Project Name="SignWelfarePanel.csd" Type="Node" />
+          </Folder>
+          <Project Name="ModeRoomView.csd" Type="Node" />
+          <Project Name="TempSceneView.csd" Type="Node" />
+        </Folder>
+        <Folder Name="CustomerServiceView">
+          <Image Name="copy_but.png" />
+          <Image Name="iphone_icon.png" />
+          <Image Name="qq_icon.png" />
+          <Image Name="wechat_custom.png" />
+          <Image Name="wechat_icon.png" />
+        </Folder>
+        <Folder Name="decorateObj">
+          <Image Name="bg_decorate_bar.png" />
+          <Image Name="bg_flower_right.png" />
+          <Image Name="bg_flower_top_right.png" />
+          <Image Name="bg_green_lotus.png" />
+          <Image Name="bg_result_succeed_logo_flower.png" />
+        </Folder>
+        <Folder Name="DragonBones">
+          <File Name="erba_hall_effect_7206_ske.json" />
+          <File Name="erba_hall_effect_7206_tex.json" />
+          <Image Name="erba_hall_effect_7206_tex.png" />
+          <File Name="erren_effect_npc_ske.json" />
+          <File Name="erren_effect_npc_tex.json" />
+          <Image Name="erren_effect_npc_tex.png" />
+          <File Name="erren_effect_xsf_ske.json" />
+          <File Name="erren_effect_xsf_tex.json" />
+          <Image Name="erren_effect_xsf_tex.png" />
+          <File Name="gf_hall_person_ske.json" />
+          <File Name="gf_hall_person_tex.json" />
+          <Image Name="gf_hall_person_tex.png" />
+          <File Name="jingdeng_ske.json" />
+          <File Name="jingdeng_tex.json" />
+          <Image Name="jingdeng_tex.png" />
+          <File Name="main_hall_icon_effect_bsxxl_512_ske.json" />
+          <File Name="main_hall_icon_effect_bsxxl_512_tex.json" />
+          <Image Name="main_hall_icon_effect_bsxxl_512_tex.png" />
+          <File Name="main_hall_icon_effect_ddz_512_ske.json" />
+          <File Name="main_hall_icon_effect_ddz_512_tex.json" />
+          <Image Name="main_hall_icon_effect_ddz_512_tex.png" />
+          <File Name="main_hall_icon_effect_goldenshark_512_ske.json" />
+          <File Name="main_hall_icon_effect_goldenshark_512_tex.json" />
+          <Image Name="main_hall_icon_effect_goldenshark_512_tex.png" />
+          <File Name="main_hall_icon_effect_hbby_512_ske.json" />
+          <File Name="main_hall_icon_effect_hbby_512_tex.json" />
+          <Image Name="main_hall_icon_effect_hbby_512_tex.png" />
+          <File Name="main_hall_icon_effect_hbjl_512_ske.json" />
+          <File Name="main_hall_icon_effect_hbjl_512_tex.json" />
+          <Image Name="main_hall_icon_effect_hbjl_512_tex.png" />
+          <File Name="main_hall_icon_effect_hlzjh_512_ske.json" />
+          <File Name="main_hall_icon_effect_hlzjh_512_tex.json" />
+          <Image Name="main_hall_icon_effect_hlzjh_512_tex.png" />
+          <File Name="main_hall_icon_effect_ksznn_512_ske.json" />
+          <File Name="main_hall_icon_effect_ksznn_512_tex.json" />
+          <Image Name="main_hall_icon_effect_ksznn_512_tex.png" />
+          <File Name="main_hall_icon_effect_lznn_512_ske.json" />
+          <File Name="main_hall_icon_effect_lznn_512_tex.json" />
+          <Image Name="main_hall_icon_effect_lznn_512_tex.png" />
+          <File Name="main_hall_icon_effect_pdk_512_ske.json" />
+          <File Name="main_hall_icon_effect_pdk_512_tex.json" />
+          <Image Name="main_hall_icon_effect_pdk_512_tex.png" />
+          <File Name="main_hall_icon_effect_qzwxs_512_ske.json" />
+          <File Name="main_hall_icon_effect_qzwxs_512_tex.json" />
+          <Image Name="main_hall_icon_effect_qzwxs_512_tex.png" />
+          <File Name="main_hall_icon_effect_sss_512_ske.json" />
+          <File Name="main_hall_icon_effect_sss_512_tex.json" />
+          <Image Name="main_hall_icon_effect_sss_512_tex.png" />
+          <File Name="main_hall_icon_effect_thwj_512_ske.json" />
+          <File Name="main_hall_icon_effect_thwj_512_tex.json" />
+          <Image Name="main_hall_icon_effect_thwj_512_tex.png" />
+          <File Name="main_hall_icon_effect_wrttz_512_ske.json" />
+          <File Name="main_hall_icon_effect_wrttz_512_tex.json" />
+          <Image Name="main_hall_icon_effect_wrttz_512_tex.png" />
+          <File Name="thwj_effect_chujifang_ske.json" />
+          <File Name="thwj_effect_chujifang_tex.json" />
+          <Image Name="thwj_effect_chujifang_tex.png" />
+        </Folder>
+        <Folder Name="EmailView">
+          <Image Name="check_more_info.png" />
+          <Image Name="deleteEmainl.png" />
+          <Image Name="email_cloes.png" />
+          <Image Name="email_open.png" />
+        </Folder>
+        <Folder Name="fonts">
+          <Fnt Name="action_tip_text.fnt" />
+          <Fnt Name="birdsText.fnt" />
+          <Fnt Name="ClubSearchText.fnt" />
+          <Fnt Name="DP_zi_lan-export.fnt" />
+          <TTF Name="gameFontALL.ttf" />
+          <Fnt Name="hallView_zone_text.fnt" />
+          <Fnt Name="huText.fnt" />
+          <Fnt Name="joinRoomWhite.fnt" />
+          <Fnt Name="round_lose_text.fnt" />
+          <Fnt Name="round_win_text.fnt" />
+          <Fnt Name="txt_prop_blue.fnt" />
+        </Folder>
+        <Folder Name="GameBG">
+          <Image Name="game_room_bg_one.png" />
+          <Image Name="game_room_bg_three.png" />
+          <Image Name="game_room_bg_two.png" />
+          <Image Name="IMG_2956.PNG" />
+          <Image Name="IMG_3047.PNG" />
+          <Image Name="IMG_jssu.png" />
+        </Folder>
+        <Folder Name="GameMaps">
+          <TmxFile Name="map3.tmx" />
+        </Folder>
+        <Folder Name="GameRoomView">
+          <Folder Name="CenterPanel">
+            <Image Name="direction_bg.png" />
+            <Image Name="icon_east_bright.png" />
+            <Image Name="icon_north_bright.png" />
+            <Image Name="icon_south_bright.png" />
+            <Image Name="icon_west_bright.png" />
+          </Folder>
+          <Folder Name="ChatView">
+            <Folder Name="smilies">
+              <PlistImageFolder Image="smilies1.png" PListFile="smilies1.plist" Name=".smilies1_PList.Dir">
+                <PlistImageFile Name="smilies101.png" Key="smilies101.png" />
+                <PlistImageFile Name="smilies102.png" Key="smilies102.png" />
+                <PlistImageFile Name="smilies103.png" Key="smilies103.png" />
+              </PlistImageFolder>
+              <PlistImageFolder Image="smilies10.png" PListFile="smilies10.plist" Name=".smilies10_PList.Dir">
+                <PlistImageFile Name="smilies1001.png" Key="smilies1001.png" />
+                <PlistImageFile Name="smilies1002.png" Key="smilies1002.png" />
+                <PlistImageFile Name="smilies1003.png" Key="smilies1003.png" />
+                <PlistImageFile Name="smilies1004.png" Key="smilies1004.png" />
+                <PlistImageFile Name="smilies1005.png" Key="smilies1005.png" />
+                <PlistImageFile Name="smilies1006.png" Key="smilies1006.png" />
+              </PlistImageFolder>
+              <PlistImageFolder Image="smilies11.png" PListFile="smilies11.plist" Name=".smilies11_PList.Dir">
+                <PlistImageFile Name="smilies1101.png" Key="smilies1101.png" />
+                <PlistImageFile Name="smilies1102.png" Key="smilies1102.png" />
+                <PlistImageFile Name="smilies1103.png" Key="smilies1103.png" />
+                <PlistImageFile Name="smilies1104.png" Key="smilies1104.png" />
+                <PlistImageFile Name="smilies1105.png" Key="smilies1105.png" />
+                <PlistImageFile Name="smilies1106.png" Key="smilies1106.png" />
+              </PlistImageFolder>
+              <PlistImageFolder Image="smilies12.png" PListFile="smilies12.plist" Name=".smilies12_PList.Dir">
+                <PlistImageFile Name="smilies1201.png" Key="smilies1201.png" />
+                <PlistImageFile Name="smilies1202.png" Key="smilies1202.png" />
+                <PlistImageFile Name="smilies1203.png" Key="smilies1203.png" />
+              </PlistImageFolder>
+              <PlistImageFolder Image="smilies13.png" PListFile="smilies13.plist" Name=".smilies13_PList.Dir">
+                <PlistImageFile Name="smilies1301.png" Key="smilies1301.png" />
+                <PlistImageFile Name="smilies1302.png" Key="smilies1302.png" />
+                <PlistImageFile Name="smilies1303.png" Key="smilies1303.png" />
+                <PlistImageFile Name="smilies1304.png" Key="smilies1304.png" />
+              </PlistImageFolder>
+              <PlistImageFolder Image="smilies14.png" PListFile="smilies14.plist" Name=".smilies14_PList.Dir">
+                <PlistImageFile Name="smilies1401.png" Key="smilies1401.png" />
+                <PlistImageFile Name="smilies1402.png" Key="smilies1402.png" />
+                <PlistImageFile Name="smilies1403.png" Key="smilies1403.png" />
+                <PlistImageFile Name="smilies1404.png" Key="smilies1404.png" />
+                <PlistImageFile Name="smilies1405.png" Key="smilies1405.png" />
+                <PlistImageFile Name="smilies1406.png" Key="smilies1406.png" />
+              </PlistImageFolder>
+              <PlistImageFolder Image="smilies15.png" PListFile="smilies15.plist" Name=".smilies15_PList.Dir">
+                <PlistImageFile Name="smilies1501.png" Key="smilies1501.png" />
+                <PlistImageFile Name="smilies1502.png" Key="smilies1502.png" />
+                <PlistImageFile Name="smilies1503.png" Key="smilies1503.png" />
+                <PlistImageFile Name="smilies1504.png" Key="smilies1504.png" />
+                <PlistImageFile Name="smilies1505.png" Key="smilies1505.png" />
+                <PlistImageFile Name="smilies1506.png" Key="smilies1506.png" />
+              </PlistImageFolder>
+              <PlistImageFolder Image="smilies2.png" PListFile="smilies2.plist" Name=".smilies2_PList.Dir">
+                <PlistImageFile Name="smilies201.png" Key="smilies201.png" />
+                <PlistImageFile Name="smilies202.png" Key="smilies202.png" />
+                <PlistImageFile Name="smilies203.png" Key="smilies203.png" />
+                <PlistImageFile Name="smilies204.png" Key="smilies204.png" />
+              </PlistImageFolder>
+              <PlistImageFolder Image="smilies3.png" PListFile="smilies3.plist" Name=".smilies3_PList.Dir">
+                <PlistImageFile Name="smilies301.png" Key="smilies301.png" />
+                <PlistImageFile Name="smilies302.png" Key="smilies302.png" />
+                <PlistImageFile Name="smilies303.png" Key="smilies303.png" />
+                <PlistImageFile Name="smilies304.png" Key="smilies304.png" />
+                <PlistImageFile Name="smilies305.png" Key="smilies305.png" />
+              </PlistImageFolder>
+              <PlistImageFolder Image="smilies4.png" PListFile="smilies4.plist" Name=".smilies4_PList.Dir">
+                <PlistImageFile Name="smilies401.png" Key="smilies401.png" />
+                <PlistImageFile Name="smilies402.png" Key="smilies402.png" />
+                <PlistImageFile Name="smilies403.png" Key="smilies403.png" />
+                <PlistImageFile Name="smilies404.png" Key="smilies404.png" />
+                <PlistImageFile Name="smilies405.png" Key="smilies405.png" />
+                <PlistImageFile Name="smilies406.png" Key="smilies406.png" />
+              </PlistImageFolder>
+              <PlistImageFolder Image="smilies5.png" PListFile="smilies5.plist" Name=".smilies5_PList.Dir">
+                <PlistImageFile Name="smilies501.png" Key="smilies501.png" />
+                <PlistImageFile Name="smilies502.png" Key="smilies502.png" />
+                <PlistImageFile Name="smilies503.png" Key="smilies503.png" />
+                <PlistImageFile Name="smilies504.png" Key="smilies504.png" />
+                <PlistImageFile Name="smilies505.png" Key="smilies505.png" />
+              </PlistImageFolder>
+              <PlistImageFolder Image="smilies6.png" PListFile="smilies6.plist" Name=".smilies6_PList.Dir">
+                <PlistImageFile Name="smilies601.png" Key="smilies601.png" />
+                <PlistImageFile Name="smilies602.png" Key="smilies602.png" />
+                <PlistImageFile Name="smilies603.png" Key="smilies603.png" />
+                <PlistImageFile Name="smilies604.png" Key="smilies604.png" />
+                <PlistImageFile Name="smilies605.png" Key="smilies605.png" />
+                <PlistImageFile Name="smilies606.png" Key="smilies606.png" />
+              </PlistImageFolder>
+              <PlistImageFolder Image="smilies7.png" PListFile="smilies7.plist" Name=".smilies7_PList.Dir">
+                <PlistImageFile Name="smilies701.png" Key="smilies701.png" />
+                <PlistImageFile Name="smilies702.png" Key="smilies702.png" />
+                <PlistImageFile Name="smilies703.png" Key="smilies703.png" />
+                <PlistImageFile Name="smilies704.png" Key="smilies704.png" />
+                <PlistImageFile Name="smilies705.png" Key="smilies705.png" />
+                <PlistImageFile Name="smilies706.png" Key="smilies706.png" />
+              </PlistImageFolder>
+              <PlistImageFolder Image="smilies8.png" PListFile="smilies8.plist" Name=".smilies8_PList.Dir">
+                <PlistImageFile Name="smilies801.png" Key="smilies801.png" />
+                <PlistImageFile Name="smilies802.png" Key="smilies802.png" />
+                <PlistImageFile Name="smilies803.png" Key="smilies803.png" />
+                <PlistImageFile Name="smilies804.png" Key="smilies804.png" />
+                <PlistImageFile Name="smilies805.png" Key="smilies805.png" />
+              </PlistImageFolder>
+              <PlistImageFolder Image="smilies9.png" PListFile="smilies9.plist" Name=".smilies9_PList.Dir">
+                <PlistImageFile Name="smilies901.png" Key="smilies901.png" />
+                <PlistImageFile Name="smilies902.png" Key="smilies902.png" />
+                <PlistImageFile Name="smilies903.png" Key="smilies903.png" />
+                <PlistImageFile Name="smilies904.png" Key="smilies904.png" />
+                <PlistImageFile Name="smilies905.png" Key="smilies905.png" />
+              </PlistImageFolder>
+            </Folder>
+            <Image Name="chat_input_bg.png" />
+            <Image Name="expression_but_n.png" />
+            <Image Name="expression_but_s.png" />
+            <Image Name="message_but_n.png" />
+            <Image Name="message_but_s.png" />
+            <Image Name="message_conten_bg.png" />
+            <Image Name="send_message_but.png" />
+          </Folder>
+          <Folder Name="mahjong">
+            <Image Name="CardLabelType_1_1.png" />
+            <Image Name="CardLabelType_1_2.png" />
+            <Image Name="CardLabelType_2_1.png" />
+            <Image Name="CardLabelType_2_2.png" />
+            <Image Name="CardLabelType_3_1.png" />
+            <Image Name="CardLabelType_3_2.png" />
+            <Image Name="CardLabelType_4_1.png" />
+            <Image Name="CardLabelType_4_2.png" />
+            <Image Name="lay_back.png" />
+            <Image Name="lay_face.png" />
+            <Image Name="lay_face_light.png" />
+            <Image Name="lay_face_mark.png" />
+            <PlistInfo Name="mahjong_ui.csi" Type="Plist" />
+            <Image Name="poker_face_000.png" />
+            <Image Name="poker_face_100.png" />
+            <Image Name="poker_face_101.png" />
+            <Image Name="poker_face_102.png" />
+            <Image Name="poker_face_103.png" />
+            <Image Name="poker_face_104.png" />
+            <Image Name="poker_face_105.png" />
+            <Image Name="poker_face_106.png" />
+            <Image Name="poker_face_107.png" />
+            <Image Name="poker_face_108.png" />
+            <Image Name="poker_face_109.png" />
+            <Image Name="poker_face_200.png" />
+            <Image Name="poker_face_201.png" />
+            <Image Name="poker_face_202.png" />
+            <Image Name="poker_face_203.png" />
+            <Image Name="poker_face_204.png" />
+            <Image Name="poker_face_205.png" />
+            <Image Name="poker_face_206.png" />
+            <Image Name="poker_face_207.png" />
+            <Image Name="poker_face_208.png" />
+            <Image Name="poker_face_209.png" />
+            <Image Name="poker_face_300.png" />
+            <Image Name="poker_face_301.png" />
+            <Image Name="poker_face_302.png" />
+            <Image Name="poker_face_303.png" />
+            <Image Name="poker_face_304.png" />
+            <Image Name="poker_face_305.png" />
+            <Image Name="poker_face_306.png" />
+            <Image Name="poker_face_307.png" />
+            <Image Name="poker_face_308.png" />
+            <Image Name="poker_face_309.png" />
+            <Image Name="poker_face_400.png" />
+            <Image Name="poker_face_401.png" />
+            <Image Name="poker_face_402.png" />
+            <Image Name="poker_face_403.png" />
+            <Image Name="poker_face_404.png" />
+            <Image Name="poker_face_405.png" />
+            <Image Name="poker_face_406.png" />
+            <Image Name="poker_face_407.png" />
+            <Image Name="poker_face_601.png" />
+            <Image Name="poker_face_602.png" />
+            <Image Name="poker_face_603.png" />
+            <Image Name="poker_face_604.png" />
+            <Image Name="poker_face_605.png" />
+            <Image Name="poker_face_606.png" />
+            <Image Name="poker_face_607.png" />
+            <Image Name="poker_face_608.png" />
+            <Image Name="side_back.png" />
+            <Image Name="side_back_l.png" />
+            <Image Name="side_face.png" />
+            <Image Name="side_face_l.png" />
+            <Image Name="side_face_l_mark.png" />
+            <Image Name="side_face_mark.png" />
+            <Image Name="stand_back.png" />
+            <Image Name="stand_facd.png" />
+            <Image Name="stand_facd_mark.png" />
+            <Image Name="stand_l.png" />
+            <Image Name="stand_r.png" />
+          </Folder>
+          <Folder Name="OperateView">
+            <Image Name="action_bg_1.png" />
+            <Image Name="action_bg_2.png" />
+            <Image Name="action_bg_3.png" />
+            <Image Name="btn_chow.png" />
+            <Image Name="btn_hu.png" />
+            <Image Name="btn_hu_un.png" />
+            <Image Name="btn_kong.png" />
+            <Image Name="btn_pass.png" />
+            <Image Name="btn_pong.png" />
+            <Image Name="btn_show_zfb.png" />
+            <Image Name="ganglight.png" />
+            <Image Name="ganglight_n.png" />
+            <Image Name="icon_action_slide_finger.png" />
+            <Image Name="light_eat.png" />
+            <Image Name="light_eat_n.png" />
+            <PlistInfo Name="operate_view_ui.csi" Type="Plist" />
+          </Folder>
+          <Folder Name="PlayerHead">
+            <Image Name="kuang.png" />
+            <Image Name="lose_net.png" />
+            <Image Name="onlien.png" />
+            <Image Name="readyed.png" />
+            <Image Name="unready.png" />
+            <Image Name="waitting.png" />
+          </Folder>
+          <Folder Name="pokers">
+            <Image Name="16.png" />
+            <Image Name="17.png" />
+            <Image Name="B_1.png" />
+            <Image Name="B_16_0.png" />
+            <Image Name="B_17_0.png" />
+            <Image Name="B_2.png" />
+            <Image Name="B_3.png" />
+            <Image Name="B_4.png" />
+            <Image Name="B_FG.png" />
+            <Image Name="B_mast_mark.png" />
+            <Image Name="B10.png" />
+            <Image Name="B11.png" />
+            <Image Name="B12.png" />
+            <Image Name="B13.png" />
+            <Image Name="B14.png" />
+            <Image Name="B15.png" />
+            <Image Name="B3.png" />
+            <Image Name="B4.png" />
+            <Image Name="B5.png" />
+            <Image Name="B6.png" />
+            <Image Name="B7.png" />
+            <Image Name="B8.png" />
+            <Image Name="B9.png" />
+            <Image Name="M_FG.png" />
+            <Image Name="mark_ming.png" />
+            <PlistInfo Name="pokers_ui.csi" Type="Plist" />
+            <Image Name="R10.png" />
+            <Image Name="R11.png" />
+            <Image Name="R12.png" />
+            <Image Name="R13.png" />
+            <Image Name="R14.png" />
+            <Image Name="R15.png" />
+            <Image Name="R3.png" />
+            <Image Name="R4.png" />
+            <Image Name="R5.png" />
+            <Image Name="R6.png" />
+            <Image Name="R7.png" />
+            <Image Name="R8.png" />
+            <Image Name="R9.png" />
+            <Image Name="S_BG.png" />
+            <Image Name="S_FG.png" />
+            <Image Name="vary.png" />
+            <Image Name="Y10.png" />
+            <Image Name="Y11.png" />
+            <Image Name="Y12.png" />
+            <Image Name="Y13.png" />
+            <Image Name="Y14.png" />
+            <Image Name="Y15.png" />
+            <Image Name="Y3.png" />
+            <Image Name="Y4.png" />
+            <Image Name="Y5.png" />
+            <Image Name="Y6.png" />
+            <Image Name="Y7.png" />
+            <Image Name="Y8.png" />
+            <Image Name="Y9.png" />
+          </Folder>
+          <Folder Name="ResultView">
+            <Image Name="continue_but.png" />
+            <Image Name="continue_green_but.png" />
+            <Image Name="continue_icon.png" />
+            <Image Name="dack_bg.png" />
+            <Image Name="lose_content_bg.png" />
+            <Image Name="lose_icon.png" />
+            <Image Name="mid_info_bg.png" />
+            <Image Name="return_hall.png" />
+            <Image Name="return_hall_but.png" />
+            <Image Name="room_result_but.png" />
+            <Image Name="room_result_title.png" />
+            <Image Name="round_content_bg.png" />
+            <Image Name="self_info_bg.png" />
+            <Image Name="share_image_but.png" />
+            <Image Name="share_screen_image.png" />
+            <Image Name="title_bg.png" />
+            <Image Name="win_content_bg.png" />
+            <Image Name="win_icon.png" />
+            <Image Name="win_mark.png" />
+          </Folder>
+          <Image Name="agreen_but.png" />
+          <Image Name="agrened_state.png" />
+          <Image Name="bg_follow_wind.png" />
+          <Image Name="bg_gradient_black.png" />
+          <Image Name="bg_tip_black.png" />
+          <Image Name="bg_trusteeship_tip.png" />
+          <Image Name="bottom_bg.png" />
+          <Image Name="btn_question_mark.png" />
+          <Image Name="btn_sort_out_num.png" />
+          <Image Name="btn_sort_out_seq.png" />
+          <Image Name="cannel_ready_but.png" />
+          <Image Name="chat_bg.png" />
+          <Image Name="disband_but.png" />
+          <Image Name="disband_room_but.png" />
+          <Image Name="double_mark.png" />
+          <Image Name="duble_but.png" />
+          <Image Name="dubule_tip_bg.png" />
+          <Image Name="especial_begin_but.png" />
+          <Image Name="exit_but.png" />
+          <Image Name="exit_room_but.png" />
+          <Image Name="gps_but.png" />
+          <Image Name="help_but.png" />
+          <Image Name="icon_battery_level.png" />
+          <Image Name="icon_battery_side.png" />
+          <Image Name="icon_clock.png" />
+          <Image Name="invite_friend_but.png" />
+          <Image Name="invite_robot_but.png" />
+          <Image Name="jump_sprite.png" />
+          <Image Name="last_but.png" />
+          <Image Name="line_decorate.png" />
+          <Image Name="make_but.png" />
+          <Image Name="mark_icon.png" />
+          <Image Name="master_mark.png" />
+          <Image Name="next_but.png" />
+          <Image Name="pass_but.png" />
+          <Image Name="pause_but.png" />
+          <Image Name="play_but.png" />
+          <Image Name="play_but2.png" />
+          <Image Name="ready_prepare_but.png" />
+          <Image Name="refuse_but.png" />
+          <Image Name="refuse_state.png" />
+          <Image Name="return_hall_but.png" />
+          <Image Name="rlt_rank_1.png" />
+          <Image Name="rob_but.png" />
+          <Image Name="room_chat_but.png" />
+          <Image Name="room_chat_but2.png" />
+          <Image Name="room_setting_but.png" />
+          <Image Name="show_all_but.png" />
+          <Image Name="text_bg.png" />
+          <Image Name="ting_sprite.png" />
+          <Image Name="tips_but.png" />
+          <Image Name="unduble_but.png" />
+          <Image Name="unmake_but.png" />
+          <Image Name="unresponse_state.png" />
+          <Image Name="unrob_but.png" />
+          <Image Name="voice_but.png" />
+          <Image Name="voice_but2.png" />
+          <Image Name="waning.png" />
+          <Image Name="wifi_01.png" />
+          <Image Name="wifi_02.png" />
+          <Image Name="wifi_03.png" />
+          <Image Name="wifi_04.png" />
+        </Folder>
+        <Folder Name="HallView">
+          <Image Name="bg_blue_circle.png" />
+          <Image Name="bg_rule_but.png" />
+          <Image Name="btn_activity.png" />
+          <Image Name="btn_bean.png" />
+          <Image Name="btn_charge.png" />
+          <Image Name="btn_icon_set.png" />
+          <Image Name="btn_mail.png" />
+          <Image Name="btn_myRoom.png" />
+          <Image Name="btn_rule.png" />
+          <Image Name="btn_service.png" />
+          <Image Name="btn_setting.png" />
+          <Image Name="btn_share.png.png" />
+          <Image Name="btn_shop.png" />
+          <Image Name="btn_task.png" />
+          <Image Name="btn_track.png" />
+          <Image Name="button_bg.png" />
+          <Image Name="change_room_num.png" />
+          <Image Name="change_room_num_p.png" />
+          <Image Name="common_notice_bg.png" />
+          <Image Name="create_room_but.png" />
+          <Image Name="create_room_but_p.png" />
+          <Image Name="expect_enter_room.png" />
+          <Image Name="expect_enter_room_p.png" />
+          <Image Name="hall_top_bg.png" />
+          <Image Name="Head_portrait1.png" />
+          <Image Name="Head_portrait2.png" />
+          <Image Name="icon_count_bg.png" />
+          <Image Name="icon_label_hot.png" />
+          <Image Name="img_role.png" />
+          <Image Name="index_1.png" />
+          <Image Name="index_2.png" />
+          <Image Name="index_3.png" />
+          <Image Name="jewel.png" />
+          <Image Name="join_room_but.png" />
+          <Image Name="join_room_but_p.png" />
+          <Image Name="rank_list_bg.png" />
+          <Image Name="rank_list_item_bg.png" />
+          <Image Name="reflash_but.png" />
+          <Image Name="roomCard.png" />
+          <Image Name="tap_line.png" />
+        </Folder>
+        <Folder Name="help">
+          <File Name="hall_help.html" />
+        </Folder>
+        <Folder Name="JoinRoomView">
+          <Image Name="btn_0.png" />
+          <Image Name="btn_1.png" />
+          <Image Name="btn_10.png" />
+          <Image Name="btn_2.png" />
+          <Image Name="btn_3.png" />
+          <Image Name="btn_4.png" />
+          <Image Name="btn_5.png" />
+          <Image Name="btn_6.png" />
+          <Image Name="btn_7.png" />
+          <Image Name="btn_8.png" />
+          <Image Name="btn_9.png" />
+          <Image Name="btn_delete.png" />
+          <Image Name="join_text.png" />
+          <Image Name="join_tips_text.png" />
+          <Image Name="text_bg.png" />
+        </Folder>
+        <Folder Name="LoginView">
+          <Image Name="barSpite.png" />
+          <Image Name="check_n.png" />
+          <Image Name="check_s.png" />
+          <Image Name="guest_but.png" />
+          <Image Name="loading_tip.png" />
+          <Image Name="LoadingBar_bg.png" />
+          <Image Name="LoadingBar_in.png" />
+          <Image Name="login_tip.png" />
+          <Image Name="rule_1.png" />
+          <Image Name="rule_2.png" />
+          <Image Name="rule_3.png" />
+          <Image Name="rule_4.png" />
+          <Image Name="rule_5.png" />
+          <Image Name="rule_6.png" />
+          <Image Name="rule_info_but.png" />
+          <Image Name="weChat_login_but.png" />
+        </Folder>
+        <Folder Name="MyRoomList">
+          <Image Name="count_round_bg.png" />
+          <Image Name="disband_but.png" />
+          <Image Name="enter_but.png" />
+          <Image Name="invite_but.png" />
+          <Image Name="more_info_but.png" />
+          <Image Name="record_but.png" />
+          <Image Name="record_room_bg.png" />
+        </Folder>
+        <Folder Name="Particles">
+          <PlistParticleFile Name="bg_sharp.plist" />
+          <PlistParticleFile Name="bg_sharp_a.plist" />
+          <PlistParticleFile Name="bomb_blue.plist" />
+          <PlistParticleFile Name="bomb_green.plist" />
+          <PlistParticleFile Name="bomb_red.plist" />
+          <PlistParticleFile Name="colorful_particle.plist" />
+          <PlistParticleFile Name="daojuguangdian.plist" />
+          <PlistParticleFile Name="daojulizi.plist" />
+          <PlistParticleFile Name="fire_particle.plist" />
+          <PlistParticleFile Name="flower.plist" />
+          <PlistParticleFile Name="flower_blue.plist" />
+          <PlistParticleFile Name="flower_up_blue.plist" />
+          <PlistParticleFile Name="flower_up_white.plist" />
+          <PlistParticleFile Name="flower_white.plist" />
+          <PlistParticleFile Name="green_succeed.plist" />
+          <PlistParticleFile Name="meirijiangli.plist" />
+          <PlistParticleFile Name="paper.plist" />
+          <PlistParticleFile Name="purple_succeed.plist" />
+          <PlistParticleFile Name="ranseqiu.plist" />
+          <PlistParticleFile Name="star_bomb.plist" />
+          <PlistParticleFile Name="up_blue.plist" />
+          <PlistParticleFile Name="up_green.plist" />
+          <PlistParticleFile Name="up_red.plist" />
+        </Folder>
+        <Folder Name="PersonalView">
+          <Image Name="personal_line.png" />
+          <Image Name="personal_lose.png" />
+          <Image Name="personal_nomal.png" />
+          <Image Name="personal_win.png" />
+        </Folder>
+        <Folder Name="PresentView">
+          <Image Name="add_but.png" />
+          <Image Name="input_bg.png" />
+          <Image Name="present_but.png" />
+          <Image Name="sub_but.png" />
+        </Folder>
+        <Folder Name="SettingView">
+          <Image Name="bg_type_one_n.png" />
+          <Image Name="bg_type_one_s.png" />
+          <Image Name="bg_type_two_n.png" />
+          <Image Name="bg_type_two_s.png" />
+          <Image Name="check_login_out.png" />
+          <Image Name="container_bar.png" />
+          <Image Name="container_bar2.png" />
+          <Image Name="handle.png" />
+        </Folder>
+        <Folder Name="Shaders">
+          <File Name="example_Blur.fsh" />
+          <File Name="example_Blur_winrt.fsh" />
+        </Folder>
+        <Folder Name="ShareView">
+          <PlistImageFolder Image="ShareView.png" PListFile="ShareView.plist" Name=".ShareView_PList.Dir">
+            <PlistImageFile Name="btn_share_to_friend.png" Key="btn_share_to_friend.png" />
+            <PlistImageFile Name="btn_share_to_timeLine.png" Key="btn_share_to_timeLine.png" />
+          </PlistImageFolder>
+          <Image Name="ad_image.jpg" />
+          <Image Name="share_icon.jpg" />
+        </Folder>
+        <Folder Name="ShopMarkView">
+          <Image Name="bg_light_prop.png" />
+          <Image Name="icon_hot_sale.png" />
+          <Image Name="icon_money_1.png" />
+          <Image Name="icon_money_2.png" />
+          <Image Name="icon_money_3.png" />
+          <Image Name="icon_money_4.png" />
+          <Image Name="icon_money_5.png" />
+          <Image Name="icon_money_6.png" />
+          <Image Name="icon_money_7.png" />
+          <Image Name="icon_money_8.png" />
+          <Image Name="icon_money_9.png" />
+          <Image Name="icon_super_value_sale.png" />
+          <Image Name="shop_item_bg.png" />
+          <Image Name="shop_item_bg2.png" />
+          <Image Name="shop_submit_but.png" />
+          <Image Name="shop_submit_but_press.png" />
+        </Folder>
+        <Folder Name="SignView">
+          <Image Name="905.png" />
+          <Image Name="bg_light_money.png" />
+          <Image Name="bg_sign_calendar_title.png" />
+          <Image Name="bg_sign_gift_info.png" />
+          <Image Name="bg_sign_gift_info_point.png" />
+          <Image Name="bg_sign_progress_bar.png" />
+          <Image Name="bg_sign_progress_bg.png" />
+          <Image Name="bg_sign_progress_p_dark.png" />
+          <Image Name="bg_sign_progress_p_light.png" />
+          <Image Name="btn_sign.png" />
+          <Image Name="btn_sign_gift_day10.png" />
+          <Image Name="btn_sign_gift_day15.png" />
+          <Image Name="btn_sign_gift_day31.png" />
+          <Image Name="btn_sign_gift_day5.png" />
+          <Image Name="icon_sign_today.png" />
+          <Image Name="icon_signed.png" />
+          <Image Name="qq_info.png" />
+          <Image Name="tips_info_bg.png" />
+        </Folder>
+        <Folder Name="Sounds">
+          <Folder Name="effect">
+            <Audio Name="chengjiu.mp3" />
+            <Audio Name="ClickButton3.mp3" />
+            <Audio Name="Clock.mp3" />
+            <Audio Name="duijukaishi.mp3" />
+            <Audio Name="give.mp3" />
+            <Audio Name="kaca.mp3" />
+            <Audio Name="loss.mp3" />
+            <Audio Name="msg_soud.mp3" />
+            <Audio Name="naozhong.mp3" />
+            <Audio Name="select.mp3" />
+            <Audio Name="take.mp3" />
+            <Audio Name="win.mp3" />
+          </Folder>
+          <Folder Name="GUANGDONG_0">
+            <Audio Name="action_eat_1.mp3" />
+            <Audio Name="action_gang_1.mp3" />
+            <Audio Name="action_hu_1.mp3" />
+            <Audio Name="action_pen_1.mp3" />
+            <Audio Name="action_zimo_1.mp3" />
+            <Audio Name="suozi_1_1.mp3" />
+            <Audio Name="suozi_2_1.mp3" />
+            <Audio Name="suozi_3_1.mp3" />
+            <Audio Name="suozi_4_1.mp3" />
+            <Audio Name="suozi_5_1.mp3" />
+            <Audio Name="suozi_6_1.mp3" />
+            <Audio Name="suozi_7_1.mp3" />
+            <Audio Name="suozi_8_1.mp3" />
+            <Audio Name="suozi_9_1.mp3" />
+            <Audio Name="tongzi_1_1.mp3" />
+            <Audio Name="tongzi_2_1.mp3" />
+            <Audio Name="tongzi_3_1.mp3" />
+            <Audio Name="tongzi_4_1.mp3" />
+            <Audio Name="tongzi_5_1.mp3" />
+            <Audio Name="tongzi_6_1.mp3" />
+            <Audio Name="tongzi_7_1.mp3" />
+            <Audio Name="tongzi_8_1.mp3" />
+            <Audio Name="tongzi_9_1.mp3" />
+            <Audio Name="wanzi_1_1.mp3" />
+            <Audio Name="wanzi_2_1.mp3" />
+            <Audio Name="wanzi_3_1.mp3" />
+            <Audio Name="wanzi_4_1.mp3" />
+            <Audio Name="wanzi_5_1.mp3" />
+            <Audio Name="wanzi_6_1.mp3" />
+            <Audio Name="wanzi_7_1.mp3" />
+            <Audio Name="wanzi_8_1.mp3" />
+            <Audio Name="wanzi_9_1.mp3" />
+            <Audio Name="zipai_1_1.mp3" />
+            <Audio Name="zipai_2_1.mp3" />
+            <Audio Name="zipai_3_1.mp3" />
+            <Audio Name="zipai_4_1.mp3" />
+            <Audio Name="zipai_5_1.mp3" />
+            <Audio Name="zipai_6_1.mp3" />
+            <Audio Name="zipai_7_1.mp3" />
+          </Folder>
+          <Folder Name="GUANGDONG_1">
+            <Audio Name="action_eat_1.mp3" />
+            <Audio Name="action_gang_1.mp3" />
+            <Audio Name="action_hu_1.mp3" />
+            <Audio Name="action_pen_1.mp3" />
+            <Audio Name="action_zimo_1.mp3" />
+            <Audio Name="suozi_1_1.mp3" />
+            <Audio Name="suozi_2_1.mp3" />
+            <Audio Name="suozi_3_1.mp3" />
+            <Audio Name="suozi_4_1.mp3" />
+            <Audio Name="suozi_5_1.mp3" />
+            <Audio Name="suozi_6_1.mp3" />
+            <Audio Name="suozi_7_1.mp3" />
+            <Audio Name="suozi_8_1.mp3" />
+            <Audio Name="suozi_9_1.mp3" />
+            <Audio Name="tongzi_1_1.mp3" />
+            <Audio Name="tongzi_2_1.mp3" />
+            <Audio Name="tongzi_3_1.mp3" />
+            <Audio Name="tongzi_4_1.mp3" />
+            <Audio Name="tongzi_5_1.mp3" />
+            <Audio Name="tongzi_6_1.mp3" />
+            <Audio Name="tongzi_7_1.mp3" />
+            <Audio Name="tongzi_8_1.mp3" />
+            <Audio Name="tongzi_9_1.mp3" />
+            <Audio Name="wanzi_1_1.mp3" />
+            <Audio Name="wanzi_2_1.mp3" />
+            <Audio Name="wanzi_3_1.mp3" />
+            <Audio Name="wanzi_4_1.mp3" />
+            <Audio Name="wanzi_5_1.mp3" />
+            <Audio Name="wanzi_6_1.mp3" />
+            <Audio Name="wanzi_7_1.mp3" />
+            <Audio Name="wanzi_8_1.mp3" />
+            <Audio Name="wanzi_9_1.mp3" />
+            <Audio Name="zipai_1_1.mp3" />
+            <Audio Name="zipai_2_1.mp3" />
+            <Audio Name="zipai_3_1.mp3" />
+            <Audio Name="zipai_4_1.mp3" />
+            <Audio Name="zipai_5_1.mp3" />
+            <Audio Name="zipai_6_1.mp3" />
+            <Audio Name="zipai_7_1.mp3" />
+          </Folder>
+          <Folder Name="PUTONG_0">
+            <Audio Name="action_eat_1.mp3" />
+            <Audio Name="action_gang_1.mp3" />
+            <Audio Name="action_hu_1.mp3" />
+            <Audio Name="action_pen_1.mp3" />
+            <Audio Name="action_zimo_1.mp3" />
+            <Audio Name="suozi_1_1.mp3" />
+            <Audio Name="suozi_2_1.mp3" />
+            <Audio Name="suozi_3_1.mp3" />
+            <Audio Name="suozi_4_1.mp3" />
+            <Audio Name="suozi_5_1.mp3" />
+            <Audio Name="suozi_6_1.mp3" />
+            <Audio Name="suozi_7_1.mp3" />
+            <Audio Name="suozi_8_1.mp3" />
+            <Audio Name="suozi_9_1.mp3" />
+            <Audio Name="tongzi_1_1.mp3" />
+            <Audio Name="tongzi_2_1.mp3" />
+            <Audio Name="tongzi_3_1.mp3" />
+            <Audio Name="tongzi_4_1.mp3" />
+            <Audio Name="tongzi_5_1.mp3" />
+            <Audio Name="tongzi_6_1.mp3" />
+            <Audio Name="tongzi_7_1.mp3" />
+            <Audio Name="tongzi_8_1.mp3" />
+            <Audio Name="tongzi_9_1.mp3" />
+            <Audio Name="wanzi_1_1.mp3" />
+            <Audio Name="wanzi_2_1.mp3" />
+            <Audio Name="wanzi_3_1.mp3" />
+            <Audio Name="wanzi_4_1.mp3" />
+            <Audio Name="wanzi_5_1.mp3" />
+            <Audio Name="wanzi_6_1.mp3" />
+            <Audio Name="wanzi_7_1.mp3" />
+            <Audio Name="wanzi_8_1.mp3" />
+            <Audio Name="wanzi_9_1.mp3" />
+            <Audio Name="zipai_1_1.mp3" />
+            <Audio Name="zipai_2_1.mp3" />
+            <Audio Name="zipai_3_1.mp3" />
+            <Audio Name="zipai_4_1.mp3" />
+            <Audio Name="zipai_5_1.mp3" />
+            <Audio Name="zipai_6_1.mp3" />
+            <Audio Name="zipai_7_1.mp3" />
+          </Folder>
+          <Folder Name="PUTONG_1">
+            <Audio Name="action_eat_1.mp3" />
+            <Audio Name="action_gang_1.mp3" />
+            <Audio Name="action_hu_1.mp3" />
+            <Audio Name="action_pen_1.mp3" />
+            <Audio Name="action_zimo_1.mp3" />
+            <Audio Name="suozi_1_1.mp3" />
+            <Audio Name="suozi_2_1.mp3" />
+            <Audio Name="suozi_3_1.mp3" />
+            <Audio Name="suozi_4_1.mp3" />
+            <Audio Name="suozi_5_1.mp3" />
+            <Audio Name="suozi_6_1.mp3" />
+            <Audio Name="suozi_7_1.mp3" />
+            <Audio Name="suozi_8_1.mp3" />
+            <Audio Name="suozi_9_1.mp3" />
+            <Audio Name="tongzi_1_1.mp3" />
+            <Audio Name="tongzi_2_1.mp3" />
+            <Audio Name="tongzi_3_1.mp3" />
+            <Audio Name="tongzi_4_1.mp3" />
+            <Audio Name="tongzi_5_1.mp3" />
+            <Audio Name="tongzi_6_1.mp3" />
+            <Audio Name="tongzi_7_1.mp3" />
+            <Audio Name="tongzi_8_1.mp3" />
+            <Audio Name="tongzi_9_1.mp3" />
+            <Audio Name="wanzi_1_1.mp3" />
+            <Audio Name="wanzi_2_1.mp3" />
+            <Audio Name="wanzi_3_1.mp3" />
+            <Audio Name="wanzi_4_1.mp3" />
+            <Audio Name="wanzi_5_1.mp3" />
+            <Audio Name="wanzi_6_1.mp3" />
+            <Audio Name="wanzi_7_1.mp3" />
+            <Audio Name="wanzi_8_1.mp3" />
+            <Audio Name="wanzi_9_1.mp3" />
+            <Audio Name="zipai_1_1.mp3" />
+            <Audio Name="zipai_2_1.mp3" />
+            <Audio Name="zipai_3_1.mp3" />
+            <Audio Name="zipai_4_1.mp3" />
+            <Audio Name="zipai_5_1.mp3" />
+            <Audio Name="zipai_6_1.mp3" />
+            <Audio Name="zipai_7_1.mp3" />
+          </Folder>
+          <Audio Name="bgMusic.mp3" />
+          <Audio Name="music_logo.mp3" />
+        </Folder>
+        <Folder Name="TaskView">
+          <Image Name="pick_up_but.png" />
+          <Image Name="picked_up_but.png" />
+          <Image Name="task_icon_one.png" />
+          <Image Name="task_icon_two.png" />
+          <Image Name="unfinished.png" />
+        </Folder>
+        <Folder Name="TitleText">
+          <Image Name="gps_title.png" />
+          <Image Name="join_room_title.png" />
+          <Image Name="popview_title_agreement.png" />
+          <Image Name="popview_title_balck_list.png" />
+          <Image Name="popview_title_change_code.png" />
+          <Image Name="popview_title_change_option.png" />
+          <Image Name="popview_title_create.png" />
+          <Image Name="popview_title_disband.png" />
+          <Image Name="popview_title_email.png" />
+          <Image Name="popview_title_help.png" />
+          <Image Name="popview_title_message.png" />
+          <Image Name="popview_title_myroom.png" />
+          <Image Name="popview_title_notice.png" />
+          <Image Name="popview_title_packs.png" />
+          <Image Name="popview_title_personal.png" />
+          <Image Name="popview_title_present.png" />
+          <Image Name="popview_title_rank.png" />
+          <Image Name="popview_title_service.png" />
+          <Image Name="popview_title_setting.png" />
+          <Image Name="popview_title_share.png" />
+          <Image Name="popview_title_task.png" />
+          <Image Name="popview_title_tips.png" />
+          <Image Name="shop_mark_title.png" />
+          <Image Name="sing_title.png" />
+        </Folder>
+        <Folder Name="Videos">
+          <File Name="startvideo.mp4" />
+        </Folder>
+      </RootFolder>
+    </Group>
+  </SolutionFolder>
+</Solution>

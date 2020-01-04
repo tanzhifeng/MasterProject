@@ -1,0 +1,6 @@
+{
+	"loginip": "",
+	"loginport": 8400,
+	"logicalip": "127.0.0.1",
+	"logicalport": 8500
+}

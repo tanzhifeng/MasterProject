@@ -1,0 +1,73 @@
+syntax = "proto3";
+
+package pt_logical;
+
+import "pt_com/common.proto";
+
+message s2l_room_user_enter {
+	uint32 loginsocket = 1;
+	uint64 roomid = 2;
+}
+
+message l2s_room_user_enter_result {
+	uint32 loginsocket = 1;
+	int32 code = 2;
+	uint64 roomid = 3;
+	map<uint64, pt_com.room_user_item> users = 4;
+	map<uint32, pt_com.room_table_item> tables = 5;
+}
+
+message s2l_room_user_leave {
+	uint32 loginsocket = 1;
+}
+
+message l2s_room_user_leave_result {
+	uint32 loginsocket = 1;
+	int32 code = 2;
+	uint64 roomid = 3;
+}
+
+message l2s_room_notify_append_user {
+	uint32 loginsocket = 1;
+	pt_com.room_user_item item = 2;
+}
+
+message l2s_room_notify_remove_user {
+	uint32 loginsocket = 1;
+	uint64 userid = 2;
+}
+
+message r2l_table_login {
+	uint32 tablesocket = 1;
+	string address = 2;
+	pt_com.room_table_item item = 3;
+}
+
+message l2r_table_login_result {
+	int32 code = 1;
+	uint32 tablesocket = 2;
+	string address = 3;
+	pt_com.room_table_item item = 4;
+}
+
+message r2l_table_lost {
+	uint32 tableid = 1;
+}
+
+message l2r_room_user_enter {
+	uint64 userid = 1;
+}
+
+message l2r_room_user_leave {
+	uint64 userid = 1;
+}
+
+message l2r_room_user_sitdown {
+	uint64 userid = 1;
+	uint32 tableid = 2;
+	uint32 chairid = 3;
+}
+
+message l2r_room_user_standup {
+	uint64 userid = 1;
+}

@@ -1,0 +1,48 @@
+
+¶
+
+pt_login/room.protopt_loginpt_com/common.proto"?
+s2c_notify_append_room%
+item (2.pt_com.room_itemRitem"0
+s2c_notify_remove_room
+roomid (Rroomid"F
+s2c_notify_append_table+
+item (2.pt_com.room_table_itemRitem"3
+s2c_notify_remove_table
+tableid (Rtableid"-
+c2s_room_user_enter
+roomid (	Rroomid"ÿ
+s2c_room_user_enter_result
+code (Rcode
+roomid (	RroomidE
+users (2/.pt_login.s2c_room_user_enter_result.UsersEntryRusersH
+tables (20.pt_login.s2c_room_user_enter_result.TablesEntryRtablesP
+
+UsersEntry
+key (Rkey,
+value (2.pt_com.room_user_itemRvalue:8R
+TablesEntry
+key (Rkey-
+value (2.pt_com.room_table_itemRvalue:8"H
+s2c_room_user_leave_result
+code (Rcode
+roomid (	Rroomid"I
+s2c_room_notify_append_user*
+item (2.pt_com.room_user_itemRitem"5
+s2c_room_notify_remove_user
+userid (Ruserid"K
+c2s_room_user_sitdown
+tableid (Rtableid
+chairid (Rchairid"f
+s2c_room_user_sitdown_result
+code (Rcode
+tableid (Rtableid
+chairid (Rchairid"2
+s2c_room_user_standup_result
+code (Rcode"j
+s2c_room_notify_user_sitdown
+userid (Ruserid
+tableid (Rtableid
+chairid (Rchairid"6
+s2c_room_notify_user_standup
+userid (Ruseridbproto3

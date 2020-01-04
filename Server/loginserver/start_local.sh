@@ -1,0 +1,1 @@
+nohup ./main ./local > local_err.log 2>&1 &

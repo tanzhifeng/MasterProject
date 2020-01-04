@@ -1,0 +1,6 @@
+<PlistInfoProjectFile>
+  <PropertyGroup Name="fish_frames" Type="Plist" ID="7524ce8f-a38e-40ca-bca7-de77e759534e" Version="3.10.0.0" />
+  <Content ExportType="Png" SortAlgorithm="MaxRects" PicturePadding="2" AllowRotation="True" AllowAnySize="False" AllowTrim="False" ctype="PlistInfoData">
+    <MaxSize Width="64" Height="32" />
+  </Content>
+</PlistInfoProjectFile>

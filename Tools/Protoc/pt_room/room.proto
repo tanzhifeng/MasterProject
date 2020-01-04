@@ -1,0 +1,23 @@
+syntax = "proto3";
+
+package pt_room;
+
+import "pt_com/common.proto";
+
+message t2r_table_login {
+	pt_com.room_table_item item = 1;
+}
+
+message r2t_table_login_result {
+	int32 code = 1;
+	pt_com.room_table_item item = 2;
+}
+
+message r2t_room_user_sitdown {
+	uint64 userid = 1;
+	uint32 chairid = 2;
+}
+
+message r2t_room_user_standup {
+	uint64 userid = 1;
+}

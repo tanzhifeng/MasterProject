@@ -1,0 +1,9 @@
+{
+	"roomip": "",
+	"roomport": 8700,
+	"roomid":1001,
+	"roomname":"斗地主房间1",
+	"roomkind":1,
+	"logicalip": "127.0.0.1",
+	"logicalport": 8500
+}

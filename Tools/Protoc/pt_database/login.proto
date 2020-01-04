@@ -1,0 +1,42 @@
+syntax = "proto3";
+
+package pt_database;
+
+message l2d_login_user {
+	uint32 logicalsocket = 1;
+	uint32 loginsocket = 2;
+	string address = 3;
+	string account = 4;
+	string password = 5;
+}
+
+message d2l_login_user_result {
+	uint32 logicalsocket = 1;
+	uint32 loginsocket = 2;
+	string address = 3;
+	int32 code = 4;
+	uint64 userid = 5;
+	string account = 6;
+	string password = 7;
+	uint64 gold = 8;
+}
+
+message l2d_user_data_save {
+	uint64 userid = 1;
+	uint64 gold = 2;
+}
+
+message l2d_register_user {
+	uint32 logicalsocket = 1;
+	uint32 loginsocket = 2;
+	string account = 3;
+	string password = 4;
+}
+
+message d2l_register_user_result {
+	uint32 logicalsocket = 1;
+	uint32 loginsocket = 2;
+	int32 code = 3;
+	string account = 4;
+	string password = 5;
+}

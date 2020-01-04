@@ -1,0 +1,8 @@
+--公共全局变量
+SWITCH_VIEW_GROUP_ONE = 1 -- 跳转变量
+EVENT_CODE_MAKER = getIncOrDecNumber() --消息分发计数器
+EVENT_RECV_PTID = EVENT_CODE_MAKER:inc() --接收到PDI协议
+EVENT_CONNECT_SUCCESSED = EVENT_CODE_MAKER:inc() -- socket服务器连接成功
+EVENT_CONNECT_LOSTED = EVENT_CODE_MAKER:inc() -- 客户端被动断开连接
+EVENT_CONNECT_FAILED = EVENT_CODE_MAKER:inc() -- 连接失败
+

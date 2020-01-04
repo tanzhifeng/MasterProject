@@ -1,0 +1,31 @@
+syntax = "proto3";
+
+package pt_login;
+
+import "pt_com/common.proto";
+
+message c2s_login_user {
+	string account = 1;
+	string password = 2;
+}
+
+message s2c_login_user_result {
+	int32 code = 1;
+	int64 time = 2;
+	uint64 userid = 3;
+	string account = 4;
+	string password = 5;
+	uint64 gold = 6;
+	map<uint64, pt_com.room_item> rooms = 7;
+}
+
+message c2s_register_user {
+	string account = 1;
+	string password = 2;
+}
+
+message s2c_register_user_result {
+	int32 code = 1;
+	string account = 2;
+	string password = 3;
+}

@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+package pt_logical;
+
+enum logical_pid {
+	LOGICAL_NONE = 0;
+	LOGICAL_ROOM_LOGIN = 2000;
+	LOGICAL_TABLE_LOGIN = 2001;
+	LOGICAL_TABLE_LOSTED = 2002;
+	
+}
+
+enum logical_code {
+	C_LOGIN_SUCCESS = 0;
+	C_LOGIN_FAILED = 1;
+	C_LOGIN_ONLINE = 2;
+}

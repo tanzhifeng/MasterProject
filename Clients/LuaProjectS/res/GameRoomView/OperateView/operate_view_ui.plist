@@ -1,0 +1,192 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>frames</key>
+		<dict>
+			<key>GameRoomView/OperateView/action_bg_1.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{2,495},{358,163}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{358,163}</string>
+			</dict>
+			<key>GameRoomView/OperateView/action_bg_2.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{2,169},{515,163}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{515,163}</string>
+			</dict>
+			<key>GameRoomView/OperateView/action_bg_3.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{2,2},{762,163}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{762,163}</string>
+			</dict>
+			<key>GameRoomView/OperateView/btn_chow.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{768,2},{147,159}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{147,159}</string>
+			</dict>
+			<key>GameRoomView/OperateView/btn_hu.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{768,165},{147,159}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{147,159}</string>
+			</dict>
+			<key>GameRoomView/OperateView/btn_hu_un.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{521,169},{147,159}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{147,159}</string>
+			</dict>
+			<key>GameRoomView/OperateView/btn_kong.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{521,332},{147,159}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{147,159}</string>
+			</dict>
+			<key>GameRoomView/OperateView/btn_pass.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{364,336},{147,159}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{147,159}</string>
+			</dict>
+			<key>GameRoomView/OperateView/btn_pong.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{515,495},{147,159}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{147,159}</string>
+			</dict>
+			<key>GameRoomView/OperateView/btn_show_zfb.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{364,499},{147,159}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{147,159}</string>
+			</dict>
+			<key>GameRoomView/OperateView/ganglight.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{2,336},{354,132}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{354,132}</string>
+			</dict>
+			<key>GameRoomView/OperateView/ganglight_n.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{666,600},{354,132}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{354,132}</string>
+			</dict>
+			<key>GameRoomView/OperateView/icon_action_slide_finger.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{919,2},{84,88}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{84,88}</string>
+			</dict>
+			<key>GameRoomView/OperateView/light_eat.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{672,328},{263,132}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{263,132}</string>
+			</dict>
+			<key>GameRoomView/OperateView/light_eat_n.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{672,464},{263,132}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{263,132}</string>
+			</dict>
+		</dict>
+		<key>metadata</key>
+		<dict>
+			<key>format</key>
+			<integer>2</integer>
+			<key>textureFileName</key>
+			<string>operate_view_ui.png</string>
+			<key>realTextureFileName</key>
+			<string>operate_view_ui.png</string>
+			<key>size</key>
+			<string>{1024,1024}</string>
+		</dict>
+		<key>texture</key>
+		<dict>
+			<key>width</key>
+			<integer>1024</integer>
+			<key>height</key>
+			<integer>1024</integer>
+		</dict>
+	</dict>
+</plist>

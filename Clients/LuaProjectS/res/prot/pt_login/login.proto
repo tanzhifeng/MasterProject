@@ -1,0 +1,25 @@
+
+é
+pt_login/login.protopt_loginpt_com/common.proto"F
+c2s_login_user
+account (	Raccount
+password (	Rpassword"°
+s2c_login_user_result
+code (Rcode
+time (Rtime
+userid (Ruserid
+account (	Raccount
+password (	Rpassword
+gold (Rgold@
+rooms (2*.pt_login.s2c_login_user_result.RoomsEntryRroomsK
+
+RoomsEntry
+key (Rkey'
+value (2.pt_com.room_itemRvalue:8"I
+c2s_register_user
+account (	Raccount
+password (	Rpassword"d
+s2c_register_user_result
+code (Rcode
+account (	Raccount
+password (	Rpasswordbproto3

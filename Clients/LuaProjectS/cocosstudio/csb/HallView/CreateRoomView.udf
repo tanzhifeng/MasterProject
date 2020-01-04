@@ -1,0 +1,13 @@
+<UserData Version="3.10.0.0">
+  <Properties>
+    <Item Key="GuidesList">
+      <Value ctype="GuidesData">
+        <VerticalList>
+          <Guides Position="-278.7673" />
+          <Guides Position="514.7919" />
+          <Guides Position="527.1898" />
+        </VerticalList>
+      </Value>
+    </Item>
+  </Properties>
+</UserData>

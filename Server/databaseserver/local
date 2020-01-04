@@ -1,0 +1,11 @@
+{
+	"databaseip": "",
+	"databaseport": 8600,
+	"hostdb": "127.0.0.1",
+	"portdb": 3306,
+	"account": "root",
+	"password": "winerisiori5991",
+	"dbname": "",
+	"maxOpenConn": 100,
+	"maxIdleConn": 50
+}

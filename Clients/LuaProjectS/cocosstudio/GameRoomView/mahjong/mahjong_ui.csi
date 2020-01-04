@@ -1,0 +1,78 @@
+<PlistInfoProjectFile>
+  <PropertyGroup Name="mahjong_ui" Type="Plist" ID="e066402e-63c1-416e-bbed-a32db9153dc3" Version="3.10.0.0" />
+  <Content ExportType="Png" SortAlgorithm="MaxRects" PicturePadding="2" AllowRotation="False" AllowAnySize="False" AllowTrim="False" ctype="PlistInfoData">
+    <ImageFiles>
+      <FilePathData Path="GameRoomView/mahjong/CardLabelType_1_1.png" />
+      <FilePathData Path="GameRoomView/mahjong/CardLabelType_1_2.png" />
+      <FilePathData Path="GameRoomView/mahjong/CardLabelType_2_1.png" />
+      <FilePathData Path="GameRoomView/mahjong/CardLabelType_2_2.png" />
+      <FilePathData Path="GameRoomView/mahjong/CardLabelType_3_1.png" />
+      <FilePathData Path="GameRoomView/mahjong/CardLabelType_3_2.png" />
+      <FilePathData Path="GameRoomView/mahjong/CardLabelType_4_1.png" />
+      <FilePathData Path="GameRoomView/mahjong/CardLabelType_4_2.png" />
+      <FilePathData Path="GameRoomView/mahjong/lay_back.png" />
+      <FilePathData Path="GameRoomView/mahjong/lay_face.png" />
+      <FilePathData Path="GameRoomView/mahjong/lay_face_light.png" />
+      <FilePathData Path="GameRoomView/mahjong/lay_face_mark.png" />
+      <FilePathData Path="GameRoomView/mahjong/poker_face_000.png" />
+      <FilePathData Path="GameRoomView/mahjong/poker_face_100.png" />
+      <FilePathData Path="GameRoomView/mahjong/poker_face_101.png" />
+      <FilePathData Path="GameRoomView/mahjong/poker_face_102.png" />
+      <FilePathData Path="GameRoomView/mahjong/poker_face_103.png" />
+      <FilePathData Path="GameRoomView/mahjong/poker_face_104.png" />
+      <FilePathData Path="GameRoomView/mahjong/poker_face_105.png" />
+      <FilePathData Path="GameRoomView/mahjong/poker_face_106.png" />
+      <FilePathData Path="GameRoomView/mahjong/poker_face_107.png" />
+      <FilePathData Path="GameRoomView/mahjong/poker_face_108.png" />
+      <FilePathData Path="GameRoomView/mahjong/poker_face_109.png" />
+      <FilePathData Path="GameRoomView/mahjong/poker_face_200.png" />
+      <FilePathData Path="GameRoomView/mahjong/poker_face_201.png" />
+      <FilePathData Path="GameRoomView/mahjong/poker_face_202.png" />
+      <FilePathData Path="GameRoomView/mahjong/poker_face_203.png" />
+      <FilePathData Path="GameRoomView/mahjong/poker_face_204.png" />
+      <FilePathData Path="GameRoomView/mahjong/poker_face_205.png" />
+      <FilePathData Path="GameRoomView/mahjong/poker_face_206.png" />
+      <FilePathData Path="GameRoomView/mahjong/poker_face_207.png" />
+      <FilePathData Path="GameRoomView/mahjong/poker_face_208.png" />
+      <FilePathData Path="GameRoomView/mahjong/poker_face_209.png" />
+      <FilePathData Path="GameRoomView/mahjong/poker_face_300.png" />
+      <FilePathData Path="GameRoomView/mahjong/poker_face_301.png" />
+      <FilePathData Path="GameRoomView/mahjong/poker_face_302.png" />
+      <FilePathData Path="GameRoomView/mahjong/poker_face_303.png" />
+      <FilePathData Path="GameRoomView/mahjong/poker_face_304.png" />
+      <FilePathData Path="GameRoomView/mahjong/poker_face_305.png" />
+      <FilePathData Path="GameRoomView/mahjong/poker_face_306.png" />
+      <FilePathData Path="GameRoomView/mahjong/poker_face_307.png" />
+      <FilePathData Path="GameRoomView/mahjong/poker_face_308.png" />
+      <FilePathData Path="GameRoomView/mahjong/poker_face_309.png" />
+      <FilePathData Path="GameRoomView/mahjong/poker_face_400.png" />
+      <FilePathData Path="GameRoomView/mahjong/poker_face_401.png" />
+      <FilePathData Path="GameRoomView/mahjong/poker_face_402.png" />
+      <FilePathData Path="GameRoomView/mahjong/poker_face_403.png" />
+      <FilePathData Path="GameRoomView/mahjong/poker_face_404.png" />
+      <FilePathData Path="GameRoomView/mahjong/poker_face_405.png" />
+      <FilePathData Path="GameRoomView/mahjong/poker_face_406.png" />
+      <FilePathData Path="GameRoomView/mahjong/poker_face_407.png" />
+      <FilePathData Path="GameRoomView/mahjong/poker_face_601.png" />
+      <FilePathData Path="GameRoomView/mahjong/poker_face_602.png" />
+      <FilePathData Path="GameRoomView/mahjong/poker_face_603.png" />
+      <FilePathData Path="GameRoomView/mahjong/poker_face_604.png" />
+      <FilePathData Path="GameRoomView/mahjong/poker_face_605.png" />
+      <FilePathData Path="GameRoomView/mahjong/poker_face_606.png" />
+      <FilePathData Path="GameRoomView/mahjong/poker_face_607.png" />
+      <FilePathData Path="GameRoomView/mahjong/poker_face_608.png" />
+      <FilePathData Path="GameRoomView/mahjong/side_back.png" />
+      <FilePathData Path="GameRoomView/mahjong/side_back_l.png" />
+      <FilePathData Path="GameRoomView/mahjong/side_face.png" />
+      <FilePathData Path="GameRoomView/mahjong/side_face_l.png" />
+      <FilePathData Path="GameRoomView/mahjong/side_face_l_mark.png" />
+      <FilePathData Path="GameRoomView/mahjong/side_face_mark.png" />
+      <FilePathData Path="GameRoomView/mahjong/stand_back.png" />
+      <FilePathData Path="GameRoomView/mahjong/stand_facd.png" />
+      <FilePathData Path="GameRoomView/mahjong/stand_facd_mark.png" />
+      <FilePathData Path="GameRoomView/mahjong/stand_l.png" />
+      <FilePathData Path="GameRoomView/mahjong/stand_r.png" />
+    </ImageFiles>
+    <MaxSize Width="1024" Height="1024" />
+  </Content>
+</PlistInfoProjectFile>

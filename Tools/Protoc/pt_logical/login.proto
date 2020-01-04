@@ -1,0 +1,40 @@
+syntax = "proto3";
+
+package pt_logical;
+
+import "pt_com/common.proto";
+
+message s2l_login_user {
+	uint32 loginsocket = 1;
+	string address = 2;
+	string account = 3;
+	string password = 4;
+}
+
+message l2s_login_user_result {
+	uint32 loginsocket = 1;
+	string address = 2;
+	int32 code = 3;
+	uint64 userid = 4;
+	string account = 5;
+	string password = 6;
+	uint64 gold = 7;
+	map<uint64, pt_com.room_item> rooms = 8;
+}
+
+message s2l_user_lost {
+	uint32 loginsocket = 1;
+}
+
+message s2l_register_user {
+	uint32 loginsocket = 1;
+	string account = 2;
+	string password = 3;
+}
+
+message l2s_register_user_result {
+	uint32 loginsocket = 1;
+	int32 code = 2;
+	string account = 3;
+	string password = 4;
+}

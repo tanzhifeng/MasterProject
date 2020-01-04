@@ -1,0 +1,62 @@
+<PlistInfoProjectFile>
+  <PropertyGroup Name="pokers_ui" Type="Plist" ID="d9501ca2-4fa8-4357-a762-fa10ed87b2a7" Version="3.10.0.0" />
+  <Content ExportType="Png" SortAlgorithm="MaxRects" PicturePadding="2" AllowRotation="True" AllowAnySize="False" AllowTrim="False" ctype="PlistInfoData">
+    <ImageFiles>
+      <FilePathData Path="GameRoomView/pokers/16.png" />
+      <FilePathData Path="GameRoomView/pokers/17.png" />
+      <FilePathData Path="GameRoomView/pokers/B_1.png" />
+      <FilePathData Path="GameRoomView/pokers/B_16_0.png" />
+      <FilePathData Path="GameRoomView/pokers/B_17_0.png" />
+      <FilePathData Path="GameRoomView/pokers/B_2.png" />
+      <FilePathData Path="GameRoomView/pokers/B_3.png" />
+      <FilePathData Path="GameRoomView/pokers/B_4.png" />
+      <FilePathData Path="GameRoomView/pokers/B_FG.png" />
+      <FilePathData Path="GameRoomView/pokers/B10.png" />
+      <FilePathData Path="GameRoomView/pokers/B11.png" />
+      <FilePathData Path="GameRoomView/pokers/B12.png" />
+      <FilePathData Path="GameRoomView/pokers/B13.png" />
+      <FilePathData Path="GameRoomView/pokers/B14.png" />
+      <FilePathData Path="GameRoomView/pokers/B15.png" />
+      <FilePathData Path="GameRoomView/pokers/B3.png" />
+      <FilePathData Path="GameRoomView/pokers/B4.png" />
+      <FilePathData Path="GameRoomView/pokers/B5.png" />
+      <FilePathData Path="GameRoomView/pokers/B6.png" />
+      <FilePathData Path="GameRoomView/pokers/B7.png" />
+      <FilePathData Path="GameRoomView/pokers/B8.png" />
+      <FilePathData Path="GameRoomView/pokers/B9.png" />
+      <FilePathData Path="GameRoomView/pokers/M_FG.png" />
+      <FilePathData Path="GameRoomView/pokers/mark_ming.png" />
+      <FilePathData Path="GameRoomView/pokers/R10.png" />
+      <FilePathData Path="GameRoomView/pokers/R11.png" />
+      <FilePathData Path="GameRoomView/pokers/R12.png" />
+      <FilePathData Path="GameRoomView/pokers/R13.png" />
+      <FilePathData Path="GameRoomView/pokers/R14.png" />
+      <FilePathData Path="GameRoomView/pokers/R15.png" />
+      <FilePathData Path="GameRoomView/pokers/R3.png" />
+      <FilePathData Path="GameRoomView/pokers/R4.png" />
+      <FilePathData Path="GameRoomView/pokers/R5.png" />
+      <FilePathData Path="GameRoomView/pokers/R6.png" />
+      <FilePathData Path="GameRoomView/pokers/R7.png" />
+      <FilePathData Path="GameRoomView/pokers/R8.png" />
+      <FilePathData Path="GameRoomView/pokers/R9.png" />
+      <FilePathData Path="GameRoomView/pokers/S_BG.png" />
+      <FilePathData Path="GameRoomView/pokers/S_FG.png" />
+      <FilePathData Path="GameRoomView/pokers/vary.png" />
+      <FilePathData Path="GameRoomView/pokers/B_mast_mark.png" />
+      <FilePathData Path="GameRoomView/pokers/Y10.png" />
+      <FilePathData Path="GameRoomView/pokers/Y11.png" />
+      <FilePathData Path="GameRoomView/pokers/Y12.png" />
+      <FilePathData Path="GameRoomView/pokers/Y13.png" />
+      <FilePathData Path="GameRoomView/pokers/Y14.png" />
+      <FilePathData Path="GameRoomView/pokers/Y15.png" />
+      <FilePathData Path="GameRoomView/pokers/Y3.png" />
+      <FilePathData Path="GameRoomView/pokers/Y4.png" />
+      <FilePathData Path="GameRoomView/pokers/Y5.png" />
+      <FilePathData Path="GameRoomView/pokers/Y6.png" />
+      <FilePathData Path="GameRoomView/pokers/Y7.png" />
+      <FilePathData Path="GameRoomView/pokers/Y8.png" />
+      <FilePathData Path="GameRoomView/pokers/Y9.png" />
+    </ImageFiles>
+    <MaxSize Width="512" Height="512" />
+  </Content>
+</PlistInfoProjectFile>

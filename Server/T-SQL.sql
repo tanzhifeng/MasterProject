@@ -1,0 +1,10 @@
+CREATE SCHEMA `bqd` ;
+
+CREATE TABLE `bqd`.`user` (
+  `userid` BIGINT UNSIGNED NOT NULL AUTO_INCREMENT,
+  `account` VARCHAR(100) NOT NULL,
+  `password` VARCHAR(100) NOT NULL,
+  `gold` BIGINT UNSIGNED NOT NULL DEFAULT 0,
+  PRIMARY KEY (`userid`),
+  UNIQUE INDEX `userid_UNIQUE` (`userid` ASC) VISIBLE,
+  UNIQUE INDEX `account_UNIQUE` (`account` ASC) VISIBLE);
